@@ -6,8 +6,10 @@ The single most common Cloud Function use-case for a storage bucket is to resize
 
 Link to this code -> https://angularfirebase.com/lessons/image-thumbnail-resizer-cloud-function/
 
+## NOTE: VARIOUS OTHER MODIFICATIONS DONE IN THIS CODE TO GET THIS CODE WORKING WITHOUT ERRORS.
 
-** Note: various other modifications done in this code to get this code working without errors.
+
+---------------------------------------------------------------------------------------------
 
 
 AFTER CLONING THIS REPOSITORY
@@ -16,6 +18,9 @@ AFTER CLONING THIS REPOSITORY
 
 2. then Run: firebase deploy --only functions
 - to deploy to firebase cloud functions
+
+
+---------------------------------------------------------------------------------------------
 
 
 Note/Warnining:
