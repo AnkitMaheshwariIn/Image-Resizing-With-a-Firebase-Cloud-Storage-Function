@@ -25,7 +25,7 @@ export const generateThumbs = functions.storage
     const bucketDir = dirname(filePath);
 
     const workingDir = join(tmpdir(), 'thumbs');
-    console.log('Code updated!!');
+    console.log('Code updated 2!!');
     const timestamp = Math.floor(Date.now() / 1000);
     const tmpFilePath = join(workingDir, 'source_' + timestamp + '.png');
 
@@ -52,9 +52,9 @@ export const generateThumbs = functions.storage
       const thumbName = `thumb@${size}_${fileName}`;
       const thumbPath = join(workingDir, thumbName);
 
-      // Resize source image
+      // Resize source image - https://sharp.dimens.io/en/stable/api-resize/
       await sharp(tmpFilePath)
-        .resize(size, size)
+        .resize(size, null)
         .toFile(thumbPath);
 
       // Upload to GCS
