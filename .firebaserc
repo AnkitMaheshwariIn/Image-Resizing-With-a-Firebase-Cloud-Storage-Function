@@ -1,9 +1,0 @@
-{
-  "projects": {
-    "default": "fcm-demo-c2df9",
-    "asianblue-dev": "asianblue-dev",
-    "od-wml": "od-wml",
-    "m-dev": "asianblue-dev",
-    "m-prod": "asianblue-5228b"
-  }
-}
